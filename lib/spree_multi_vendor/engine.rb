@@ -20,6 +20,7 @@ module SpreeMultiVendor
     end
 
     def self.activate
+      Rails.autoloaders.main.ignore(Rails.root.join('app/overrides/'))
       Dir.glob(File.join(File.dirname(__FILE__), '../../app/**/*_decorator*.rb')) do |c|
         Rails.configuration.cache_classes ? require(c) : load(c)
       end
