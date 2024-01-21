@@ -14,3 +14,5 @@ Deface::Override.new(
             <% end %>
     HTML
 )
+
+Spree::Admin::Products::New = "STUB".freeze

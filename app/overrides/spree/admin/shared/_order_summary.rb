@@ -33,3 +33,5 @@ Deface::Override.new(
           </tr>
     HTML
 )
+
+Spree::Admin::Orders::OrderSummary = "STUB".freeze
