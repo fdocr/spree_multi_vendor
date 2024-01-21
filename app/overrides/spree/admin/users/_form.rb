@@ -12,4 +12,4 @@ Deface::Override.new(
         HTML
 )
 
-Spree::Admin::Orders::Form = "STUB".freeze
+Spree::Admin::Users::Form = "STUB".freeze

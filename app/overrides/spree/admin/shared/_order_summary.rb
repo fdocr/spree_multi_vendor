@@ -34,4 +34,4 @@ Deface::Override.new(
     HTML
 )
 
-Spree::Admin::Orders::OrderSummary = "STUB".freeze
+Spree::Admin::Shared::OrderSummary = "STUB".freeze
